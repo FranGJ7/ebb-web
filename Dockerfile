@@ -1,5 +1,8 @@
 # Imagem base
 FROM node:18-alpine
+
+ENV NODE_ENV=development
+
 #diretório para o aplicativo
 WORKDIR /app
 
