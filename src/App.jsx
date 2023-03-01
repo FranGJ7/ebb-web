@@ -93,7 +93,7 @@ const App = () => {
     event.preventDefault();
     fetchWeather();
     setPokemonHasImage(true);
-
+  }
 
 
     //executa a função fetchPokemon() apenas quando a temperatura muda.
@@ -158,7 +158,6 @@ const App = () => {
         }
       </div>
     );
-  }
 };
 
 export default App;
