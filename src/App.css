@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+.pokemonLogo {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.formBox {
+    margin-top: 100px;
+}
+
+.textInput {
+    width: 250px;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+}
+
+.textInput:focus {
+    outline-style: none;
+}
+
+.buttonInput {
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #2B74BA;
+    cursor: pointer;
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.tempTitle {
+    color: #2B74BA;
+    padding: 8px;
+}
+
+.rain {
+    color: #2B74BA;
+    padding-left: 8px;
+}
+
+.pokemonBox {
+    width: 100%;
+    text-align: center;
+}
+
+.pokemonTitle {
+    color: #2B74BA;
+    padding-top: 20px;
+}
+
+.imgPokemon {
+    margin-top: 20px;
+    width: 250px;
+}
+
+.imgDefault {
+    margin-top: 50px;
+}
+
+.whatPokemon {
+    width: 300px;
+    border-radius: 80%;
+}
+
+.errorBox {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: red;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+@media (max-width: 420px) {
+    .pokemonLogo {
+        width: 250px;
+        margin-top: 10px;
+    }
+
+    .formBox {
+        margin-top: 100px;
+    }
+
+    .textInput {
+        width: 170px;
+        height: 25px;
+    }
+
+    .buttonInput {
+        width: 80px;
+        height: 25px;
+        border: none;
+        background-color: #2B74BA;
+        cursor: pointer;
+    }
+}
