@@ -29,7 +29,7 @@ Tecnologias do projeto</h2>
 </ul>
 
 
-<span>:gear:</span><h2>Instruções de projeto</h2>
+<h2>:gear: Instruções de projeto</h2>
 
 <p><strong>Para rodar este projeto local será preciso ter o Node com Npm ou Yarn</strong></p>
 
